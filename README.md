@@ -1,4 +1,5 @@
-Внимание в conftest.py в строке
+Внимание 
+в conftest.py в строке
 browser = webdriver.Chrome(....., executable_path="../../chromedriver/chromedriver")
 установите свой путь до chromedriver в executable_path или уберите этот параметр совсем, если он у вас в PATH.
 PS. у меня Ubuntu и драйвер лежит в корне проекта в папке chromedriver
